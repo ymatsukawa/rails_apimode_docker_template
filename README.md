@@ -61,7 +61,7 @@ $ docker-compose run app rspec/request
 
 this template adjusts config about `action_*/railtie`, `action_*/engine` and related file. see belows 
 
-* [./config/application.rb]
+* [application.rb](./config/application.rb)
 * ./config/environments
   * [development.rb](./config/environments/development.rb]
   * [test.rb](./config/environments/test.rb)
