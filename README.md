@@ -1,4 +1,4 @@
-# rails template
+# rails API mode template
 
 ## system requirements
 
@@ -56,3 +56,13 @@ $ docker-compose run app rspec
 # specific spec
 $ docker-compose run app rspec/request
 ```
+
+## remarks
+
+this template adjusts config about `action_*/railtie`, `action_*/engine` and related file. see belows 
+
+* [./config/application.rb]
+* ./config/environments
+  * [development.rb](./config/environments/development.rb]
+  * [test.rb](./config/environments/test.rb)
+  * [production.rb](./config/environments/production.rb)
