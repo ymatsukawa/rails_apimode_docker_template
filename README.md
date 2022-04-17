@@ -63,6 +63,6 @@ this template adjusts config about `action_*/railtie`, `action_*/engine` and rel
 
 * [application.rb](./config/application.rb)
 * ./config/environments
-  * [development.rb](./config/environments/development.rb]
+  * [development.rb](./config/environments/development.rb)
   * [test.rb](./config/environments/test.rb)
   * [production.rb](./config/environments/production.rb)
